@@ -1,5 +1,40 @@
-__*/
-DS*
-DS*/
-.DS_*
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
 
+# Virtual environments
+venv/
+env/
+.venv/
+conda/
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Model and cache files
+*.bin
+*.pt
+*.ckpt
+cache/
+model/
+models/
+huggingface/
+
+# Logs
+*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Uploaded or temporary files
+tmp/
+uploads/
